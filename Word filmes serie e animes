@@ -1,0 +1,222 @@
+Aqui está o site atualizado com títulos em tamanho gigante e capas para as seções de filmes, séries e animes. Adicionei mais **dois filmes**, **duas séries** e **dois animes**, conforme solicitado. 
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Séries, Filmes e Animes - Meu Site Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* Fundo preto */
+            color: #ff0000; /* Texto vermelho */
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #ff0000; /* Texto vermelho no menu */
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1, h2, h3, p {
+            color: #ff0000; /* Títulos e textos em vermelho */
+        }
+        h2 {
+            font-size: 3em; /* Título em tamanho gigante */
+            margin: 20px 0;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background-color: #222; /* Cartão com fundo escuro */
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5); /* Sombra vermelha */
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .rating {
+            display: flex;
+            gap: 5px;
+            margin-top: 10px;
+        }
+        .rating span {
+            font-size: 20px;
+            color: #ffdd00; /* Estrelas em amarelo */
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Word Séries, Filmes e Animes - Meu Site Pessoal</h1>
+    </header>
+
+    <nav>
+        <a href="#series">Séries</a>
+        <a href="#filmes">Filmes</a>
+        <a href="#animes">Animes</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="container">
+        <section id="series">
+            <h2>Word Séries</h2>
+            <div class="grid">
+                <!-- Série 1: Stranger Things -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/200x300?text=Stranger+Things" alt="Stranger Things">
+                    <h3>Stranger Things</h3>
+                    <p>Quando um garoto desaparece, seus amigos e a polícia enfrentam forças sobrenaturais para trazê-lo de volta, mergulhando em uma trama cheia de mistérios e experimentos secretos.</p>
+                    <div class="rating">
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                    </div>
+                </div>
+
+                <!-- Série 2: The Witcher -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/200x300?text=The+Witcher" alt="The Witcher">
+                    <h3>The Witcher</h3>
+                    <p>Geralt de Rívia, um caçador de monstros mutante, luta para encontrar seu lugar em um mundo onde as pessoas muitas vezes se mostram mais perversas que as próprias feras.</p>
+                    <div class="rating">
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>☆</span>
+                    </div>
+                </div>
+
+                <!-- Série 3: La Casa de Papel -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/200x300?text=La+Casa+de+Papel" alt="La Casa de Papel">
+                    <h3>La Casa de Papel</h3>
+                    <p>Um grupo de assaltantes, liderados pelo brilhante Professor, embarca em uma audaciosa missão para roubar a Casa da Moeda da Espanha, enfrentando desafios emocionantes a cada passo.</p>
+                    <div class="rating">
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                    </div>
+                </div>
+
+                <!-- Série 4: Black Mirror -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/200x300?text=Black+Mirror" alt="Black Mirror">
+                    <h3>Black Mirror</h3>
+                    <p>Uma série de antologia que explora a sociedade moderna e as consequências imprevistas das novas tecnologias, cada episódio conta uma história única e impactante.</p>
+                    <div class="rating">
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                    </div>
+                </div>
+
+                <!-- Série 5: The Crown -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/200x300?text=The+Crown" alt="The Crown">
+                    <h3>The Crown</h3>
+                    <p>A história do reinado da Rainha Elizabeth II e os eventos que moldaram a segunda metade do século XX, explorando as intrigas políticas e pessoais da família real britânica.</p>
+                    <div class="rating">
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                    </div>
+                </div>
+
+                <!-- Adicione mais séries da Netflix aqui -->
+            </div>
+        </section>
+
+        <section id="filmes">
+            <h2>Filmes</h2>
+            <div class="grid">
+                <!-- Filme 1: Bird Box -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/200x300?text=Bird+Box" alt="Bird Box">
+                    <h3>Bird Box</h3>
+                    <p>Em um futuro apocalíptico, uma mãe e seus filhos precisam navegar por um rio com os olhos vendados para escapar de entidades misteriosas que causam loucura e suicídio ao serem vistas.</p>
+                    <div class="rating">
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>☆</span>
+                    </div>
+                </div>
+
+                <!-- Filme 2: Enola Holmes -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/200x300?text=Enola+Holmes" alt="Enola Holmes">
+                    <h3>Enola Holmes</h3>
+                    <p>Enola, a irmã mais nova de Sherlock Holmes, desafia as expectativas sociais para resolver o mistério do desaparecimento de sua mãe enquanto enfrenta desafios e aventuras em Londres.</p>
+                    <div class="rating">
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                    </div>
+                </div>
+
+                <!-- Filme 3: O Irlandês -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/200x300?text=O+Irlandês" alt="O Irlandês">
+                    <h3>O Irlandês</h3>
+                    <p>Frank Sheeran, um ex-militar, reflete sobre seu envolvimento com a máfia e seu papel no desaparecimento do líder sindical Jimmy Hoffa, em um épico de crimes e traições.</p>
+                    <div class="rating">
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                        <span>⭐</span>
+                    </div>
+                </div>
+
+                <!-- Filme 4: A Barraca do Beijo -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/200x300?
